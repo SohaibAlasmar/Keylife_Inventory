@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="16c1f7b78fcf4445ab07eabbdbfc4f7f" Name="Diagram1">
+        <EntityTypeShape EntityType="inventorydbModel.edited_mat" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="inventorydbModel.material" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="inventorydbModel.user" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="inventorydbModel.FK_edited_mat_users" ManuallyRouted="false" />
+        <AssociationConnector Association="inventorydbModel.FK_materials_users" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="inventorydbModel.color" Width="1.5" PointX="5.375" PointY="0.75" />
+        <AssociationConnector Association="inventorydbModel.FK_colors_colors" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
